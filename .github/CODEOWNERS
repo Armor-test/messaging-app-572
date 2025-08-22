@@ -1,0 +1,36 @@
+# CODEOWNERS file for messaging-app-572
+# Global owners - will be requested for all PRs
+* @Armor-test/unit-test @Armor-test/squad-payments @Armor-test/team-core
+
+# Directory ownership
+/migrations/ @Armor-test/team-security @Armor-test/squad-research
+/common/ @Armor-test/squad-product @Armor-test/grp-payments
+/lib/ @Armor-test/squad-research @Armor-test/dept-billing
+/helpers/ @Armor-test/dept-reporting @Armor-test/squad-apps
+/docs/ @Armor-test/squad-tooling @Armor-test/grp-storage @Armor-test/squad-ml
+/scripts/ @Armor-test/unit-governance @Armor-test/dept-automation
+/dist/ @Armor-test/grp-search @Armor-test/squad-apps
+/utils/ @Armor-test/team-research @Armor-test/dept-security @Armor-test/dept-automation
+/views/ @Armor-test/squad-product @Armor-test/squad-reporting
+/build/ @Armor-test/squad-cloud @Armor-test/unit-cloud @Armor-test/squad-database
+
+# File type ownership
+*.sql @Armor-test/dept-billing @Armor-test/squad-apps @Armor-test/team-reporting
+*.cs @Armor-test/unit-governance @Armor-test/squad-search @Armor-test/squad-reporting
+*.cpp @Armor-test/dept-security @Armor-test/team-logging @Armor-test/team-research
+*.config @Armor-test/dept-reliability @Armor-test/squad-apps
+*.rb @Armor-test/dept-data @Armor-test/dept-billing @Armor-test/team-core
+*.lock @Armor-test/dept-identity @Armor-test/squad-database
+*.sh @Armor-test/squad-research @Armor-test/dept-reporting @Armor-test/unit-devops
+*.json @Armor-test/grp-storage @Armor-test/squad-performance
+*.scala @Armor-test/team-notifications @Armor-test/team-research
+*.yaml @Armor-test/dept-api @Armor-test/grp-ui @Armor-test/squad-ml
+*.gradle @Armor-test/squad-frontend @Armor-test/unit-devops
+*.proto @Armor-test/dept-identity @Armor-test/team-frontend
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Dockerfile @Armor-test/devops @Armor-test/infra
